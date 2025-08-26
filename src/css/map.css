@@ -1,0 +1,153 @@
+.header-map {
+    background-color: #fcbba1;
+    padding-bottom: 10px;
+    width: 85%;
+    margin: 0 auto;
+    bottom: 20px;
+    margin-top: 5%;
+    color: white;
+}
+
+.heading {
+    padding-left: 2%;
+}
+
+.text-muted {
+    padding-left: 2%;
+    font-family: tohoma;
+}
+
+.census-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* align-items: right; */
+    /* top: 55px; */
+    padding: 10px 10px;
+    /* border-radius: 5px; */
+    color: white;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    /* position: absolute; */
+    z-index: 999;
+    box-shadow: 0 0 5px 0 rgba(184, 140, 140, 0.3);
+}
+
+.mapContainer {
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .mapContainer {
+        height: 300px;
+    }
+
+    /* .census-info {
+        margin-top: 88%;
+        left: 10%;
+    } */
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .mapContainer {
+        height: 500px;
+    }
+
+    /* .census-info {
+        margin-top: 75%;
+        left: 10%;
+    } */
+}
+
+@media screen and (min-width: 900px) {
+    .mapContainer {
+        height: 600px;
+    }
+
+    /* .census-info {
+        margin-top: 50%;
+        left: 7%;
+    } */
+}
+.mapDiagnosis {
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .mapDiagnosis {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .mapDiagnosis {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mapDiagnosis {
+        height: 600px;
+    }
+}
+.font-dashboard {
+    font-size: 20px !important;
+    font-weight: bolder !important;
+    color: var(--teal-A800) !important;
+}
+
+.font-dashboard-white {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.font-dashboard-pao {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: var(--teal-A800) !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(12px, 4vw, 16px);
+}
+
+.font-description-pao {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #9e9e9e !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(12px, 4vw, 16px);
+}
+
+.census-info-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: #000;
+    letter-spacing: 2px;
+    background: rgba(235, 232, 232, 0.8);
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    max-height: 400px;
+    font-size: 12px;
+    z-index: 999;
+    box-shadow: 0 0 5px 0 rgba(184, 140, 140, 0.3);
+}
+
+.info-button {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+}

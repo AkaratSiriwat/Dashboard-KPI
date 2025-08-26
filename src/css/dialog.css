@@ -1,0 +1,27 @@
+.bg-gradiant {
+    width: 100%;
+    padding: 30px 10px;
+}
+
+.close-icn {
+    margin-top: -20px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 36px ; */
+    font-weight: bold;
+    font-size: clamp(16px, 4vw, 36px);
+}
+
+.container-bg{
+    width: 80% !important;
+}
+
+.form-dialog{
+    width: 100% !important;
+}

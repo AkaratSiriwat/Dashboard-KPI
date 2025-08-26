@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import {
+  ArcElement,
+  BarElement,
+  CategoryScale,
+  Chart,
+  Legend,
+  LinearScale,
+  Title,
+  Tooltip
+} from "chart.js";
+import "../src/css/color.css";
+import "../src/css/global.css";
+import "../src/css/map.css";
+import "../src/css/legend.css";
+import "../src/css/dialog.css";
+import "../src/css/dashboard.css";
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import RouterMain from './pages/RouterMain';
+import CustomDrawer from "./layout/CustomDrawer";
+import Theme from "./Theme";
+import { CssBaseline } from "@mui/material";
 
-function App() {
+// Register Chart.js components
+Chart.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
+
+export default function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Theme>
+        <CssBaseline />
+        <CustomDrawer />
+        <RouterMain />
+      </Theme>
+    </BrowserRouter>
   );
 }
-
-export default App;

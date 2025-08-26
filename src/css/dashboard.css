@@ -1,0 +1,211 @@
+@media screen and (max-width: 599px) {
+    .paper-search {
+        /* margin-top: 10%; */
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .census-info-chart-h {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .paper-search {
+        margin-top: 1rem;
+        padding: 20px 20px 8% 20px;
+        border-radius: 0 0 20% 20%;
+    }
+
+    .census-info-chart-h {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .paper-search {
+        margin-top: 0.5rem;
+        padding: 20px 20px 5% 20px;
+        border-radius: 0 0 25% 25%;
+    }
+
+    .census-info-chart-h {
+        height: 600px;
+    }
+}
+
+.paper-search {
+    width: 100% !important;
+    margin-bottom: 2rem;
+    background-color: #c3c3c3;
+    border-style: solid #c3c3c3;
+    border: 1;
+    box-shadow: 0 5px 5px 0 rgba(14, 14, 14, 0.5);
+}
+
+.header-search {
+    font-size: clamp(18px, 4vw, 22px) !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.box-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    border-style: solid #fff;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background: #0a4780;
+    z-index: 999;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.census-info-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    border-style: solid #fff;
+    background: #0e1a77;
+    z-index: 999;
+    box-shadow: 0 5px 5px 0 rgba(13, 13, 13, 0.3);
+}
+
+.census-info-chart {
+    /* width: 90% !important; */
+    /* height: 500px !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-style: solid #e6e6e6;
+    background: #e6e6e6;
+    box-shadow: 0 5px 5px 0 rgba(7, 7, 7, 0.3);
+}
+
+.census-info-chart-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.census-info-tbl {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #5374cf !important;
+    background: #e6e6e6 !important;
+    box-shadow: 0 5px 5px 0 rgba(7, 7, 7, 0.3) !important;
+    border-radius: 15px !important;
+}
+
+.box-level {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* /////Report Diagnose////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+
+.census-info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    width: auto;
+    height: auto;
+    z-index: 999;
+    box-shadow: 0 0 5px 0 rgba(184, 140, 140, 0.3);
+}
+
+.census-info-frame-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: auto;
+    height: auto;
+    z-index: 999;
+    box-shadow: 0 0 5px 0 rgba(184, 140, 140, 0.3);
+}
+
+.census-info-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px; */
+    border-radius: 0 0 10px 10px;
+    width: auto;
+    height: auto;
+    z-index: 999;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.css-1i5nofp {
+    height: auto !important;
+}
+
+.text-info-header {
+    color: white;
+    font-size: 18px !important;
+}
+
+.text-info-sub {
+    color: #ffc107;
+    font-size: 16px;
+}
+
+.mapContainer-xs-6 {
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .mapContainer-xs-6 {
+        height: 300px !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .mapContainer-xs-6 {
+        height: 350px !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mapContainer-xs-6 {
+        height: 400px !important;
+    }
+}
+
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+/* ////////////////////////// */
+
+.census-info-frame-box {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px 10px;
+    border-radius: 0 0 10px 10px;
+    z-index: 999;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}

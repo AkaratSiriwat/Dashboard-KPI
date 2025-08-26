@@ -1,0 +1,24 @@
+:root {
+    --teal-A700: #00bfa5;
+    --teal-A400: #1de9b6;
+
+    --white: #ffffff;
+    --gray: #7f7f7f;
+    --light-gray: #a8a8a8;
+    --red: #ed1c24;
+    --red-700: #d32f2f;
+    --red-A400: #ff1744;
+    --blue-sky: #00a2e8;
+    --yellow: #ffab00;
+    --dark-green: #006500;
+    --light-green: #24ad23;
+    --teal-A100: #a7ffeb;
+    --teal-A200: #64ffda;
+    --teal-A800: #00695c;
+    --dark-teal: #009984;
+    --teal-100: #b2dfdb;
+    --purple-100: #e1bee7;
+    --blue-100: #bbdefb;
+    --amber-100: #ffecb3;
+    --blue-grey: #cfd8dc;
+}
