@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dashboard-KPI/static/css/main.5eafe0c6.css",
+    "main.js": "/Dashboard-KPI/static/js/main.34efbb2f.js",
+    "static/js/453.798b626a.chunk.js": "/Dashboard-KPI/static/js/453.798b626a.chunk.js",
+    "static/media/logo_kk_อบจ.jpg": "/Dashboard-KPI/static/media/logo_kk_อบจ.47727e046c797471ba67.jpg",
+    "index.html": "/Dashboard-KPI/index.html",
+    "main.5eafe0c6.css.map": "/Dashboard-KPI/static/css/main.5eafe0c6.css.map",
+    "main.34efbb2f.js.map": "/Dashboard-KPI/static/js/main.34efbb2f.js.map",
+    "453.798b626a.chunk.js.map": "/Dashboard-KPI/static/js/453.798b626a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eafe0c6.css",
+    "static/js/main.34efbb2f.js"
+  ]
+}
